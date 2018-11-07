@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/cygdrive/f'
+let g:netrw_dirhist_2='/cygdrive/f/VIM'
+let g:netrw_dirhist_3='/cygdrive/f/VIM/res'
+let g:netrw_dirhist_4='/cygdrive/f/VIM'
+let g:netrw_dirhist_5='/cygdrive/f'
+let g:netrw_dirhist_6='/cygdrive/f/vimtest'
