@@ -1,0 +1,29 @@
+set surround
+set showmode
+set clipboard+=unnamed
+set inccommand=nosplit
+set incsearch
+set ignorecase
+set smartcase
+
+let mapleader = " "
+nnoremap <leader>q :action CloseEditor<CR>
+nnoremap <leader>qa :action CloseAllEditorsButActive<CR>
+nnoremap <leader>qnn :action CloseAllNotifications<CR>
+nnoremap <leader>qn :action CloseFirstNotification<CR>
+nnoremap <leader>d :action GotoDeclaration<CR>
+nnoremap <leader>i :action GotoImplementation<CR>
+nnoremap <leader>gdf :action Compare.LastVersion<CR>
+nnoremap <leader>gpl :action Git.Pull<CR>
+nnoremap <leader>gph :action Vcs.Push<CR>
+nnoremap <leader>gs :action Git.Stash<CR>
+nnoremap <leader>gss :action Git.Unstash<CR>
+nnoremap <leader>gb :action Git.Branches<CR>
+nnoremap <leader>e :action RecentChangedFiles<CR>
+nnoremap <leader>ee :action RecentLocations<CR>
+
+map <leader>f :action Replace<CR>
+map <leader>R :action RenameElement<CR>
+map <leader>F :action FindUsages<CR>
+map <Leader>[ :action EditorCodeBlockStart<CR>
+map <Leader>] :action EditorCodeBlockEnd<CR>
