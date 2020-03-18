@@ -10,6 +10,7 @@ set noerrorbells
 set hls
 
 let mapleader = " "
+nnoremap <leader>c :nohl<CR>
 nnoremap <leader>q :action CloseEditor<CR>
 nnoremap <leader>qa :action CloseAllEditorsButActive<CR>
 nnoremap <leader>qnn :action CloseAllNotifications<CR>
