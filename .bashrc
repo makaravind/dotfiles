@@ -7,6 +7,7 @@ alias gs='git status'
 alias gl='git log --graph --oneline --decorate --all'
 
 # Windows
+alias mv='mv -i'
 alias q='exit'
 alias c='clear'
 alias h='history'
