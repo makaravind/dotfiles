@@ -1,3 +1,8 @@
+call plug#begin('~/.vim/plugged')
+Plug 'tpope/vim-surround'
+" Initialize plugin system
+call plug#end()
+
 " set Leader to Space
 let mapleader = "\<Space>"
 set nocompatible
