@@ -24,6 +24,7 @@ nnoremap <leader>gph :action Vcs.Push<CR>
 nnoremap <leader>gs :action Git.Stash<CR>
 nnoremap <leader>gss :action Git.Unstash<CR>
 nnoremap <leader>gb :action Git.Branches<CR>
+nnoremap <leader>gc :action ActivateCommitToolWindow<CR>
 nnoremap <leader>e :action RecentChangedFiles<CR>
 nnoremap <leader>ee :action RecentLocations<CR>
 
