@@ -33,3 +33,4 @@ map <leader>R :action RenameElement<CR>
 map <leader>F :action FindUsages<CR>
 map <Leader>[ :action EditorCodeBlockStart<CR>
 map <Leader>] :action EditorCodeBlockEnd<CR>
+set ideajoin
