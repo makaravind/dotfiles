@@ -25,3 +25,7 @@ alias ..='cd ..'
 alias ...='cd ..; cd ..'
 alias ....='cd ..; cd ..; cd ..'
 alias grep='grep -n --color'
+
+# mac
+# brew install trash-cli
+alias rm=trash

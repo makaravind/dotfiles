@@ -27,10 +27,12 @@ nnoremap <leader>gb :action Git.Branches<CR>
 nnoremap <leader>gc :action ActivateCommitToolWindow<CR>
 nnoremap <leader>e :action RecentChangedFiles<CR>
 nnoremap <leader>ee :action RecentLocations<CR>
+nnoremap <leader>W :action WindowMenu<CR>
 
 map <leader>f :action Replace<CR>
 map <leader>R :action RenameElement<CR>
 map <leader>F :action FindUsages<CR>
 map <Leader>[ :action EditorCodeBlockStart<CR>
 map <Leader>] :action EditorCodeBlockEnd<CR>
+map <leader>Bs :action SurroundWith<CR>
 set ideajoin
