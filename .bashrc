@@ -12,8 +12,6 @@ alias q='exit'
 alias c='clear'
 alias h='history'
 alias dev='cd ~/Documents/dev'
-alias whome='cd F:\\home\\locker'
-alias albty='cd F:\\home\\locker\\ALBTY'
 # opens windows explorer
 # o() {
 #        #line=$(sed -e 's#^F:##' -e 's#/#\\#g' <<< "$1")
@@ -29,3 +27,5 @@ alias grep='grep -n --color'
 # mac
 # brew install trash-cli
 alias rm=trash
+alias synk=snyk
+

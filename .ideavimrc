@@ -21,16 +21,15 @@ nnoremap <leader>i :action GotoImplementation<CR>
 nnoremap <leader>gdf :action Compare.LastVersion<CR>
 nnoremap <leader>gpl :action Git.Pull<CR>
 nnoremap <leader>gph :action Vcs.Push<CR>
-nnoremap <leader>gs :action Git.Stash<CR>
-nnoremap <leader>gss :action Git.Unstash<CR>
 nnoremap <leader>gb :action Git.Branches<CR>
 nnoremap <leader>gc :action ActivateCommitToolWindow<CR>
+nnoremap <leader>Gh :action Github.Open.In.Browser<CR>
 nnoremap <leader>e :action RecentChangedFiles<CR>
 nnoremap <leader>ee :action RecentLocations<CR>
 nnoremap <leader>W :action WindowMenu<CR>
+map <leader>R :action RefactoringMenu<CR>
 
 map <leader>f :action Replace<CR>
-map <leader>R :action RenameElement<CR>
 map <leader>F :action FindUsages<CR>
 map <Leader>[ :action EditorCodeBlockStart<CR>
 map <Leader>] :action EditorCodeBlockEnd<CR>
