@@ -28,4 +28,4 @@ alias grep='grep -n --color'
 # brew install trash-cli
 alias rm=trash
 alias synk=snyk
-
+alias worktime="TZ='Europe/Berlin' date && date && TZ='America/New_York' date"
