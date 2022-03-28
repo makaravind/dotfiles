@@ -29,3 +29,6 @@ alias grep='grep -n --color'
 alias rm=trash
 alias synk=snyk
 alias worktime="TZ='Europe/Berlin' date && date && TZ='America/New_York' date"
+# https://github.com/sniptt-official/ots
+alias secretify="pbpaste | ots new | pbcopy"
+. "$HOME/.cargo/env"
