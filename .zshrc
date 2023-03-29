@@ -93,6 +93,7 @@ plugins=(
 	common-aliases
 	colorize
 	colored-man-pages
+	per-directory-history
 	)
 
 source $ZSH/oh-my-zsh.sh
