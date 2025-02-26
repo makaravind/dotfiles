@@ -8,6 +8,7 @@ set smartcase
 set visualbell
 set noerrorbells
 set hls
+set nu!
 
 let mapleader = " "
 " :source ~/.ideavimrc
@@ -22,8 +23,10 @@ nnoremap <leader>gdf :action Compare.LastVersion<CR>
 nnoremap <leader>gpl :action Git.Pull<CR>
 nnoremap <leader>gph :action Vcs.Push<CR>
 nnoremap <leader>gb :action Git.Branches<CR>
+nnoremap <leader>ghh :action Vcs.ShowHistoryForBlock<CR>
 nnoremap <leader>gc :action ActivateCommitToolWindow<CR>
-nnoremap <leader>Gh :action Github.Open.In.Browser<CR>
+nnoremap <leader>Gh :action GitLab.Open.In.Browser<CR>
+nnoremap <leader>Gr :action GitLab.Merge.Request.Show.List<CR>
 nnoremap <leader>e :action RecentChangedFiles<CR>
 nnoremap <leader>ee :action RecentLocations<CR>
 nnoremap <leader>W :action WindowMenu<CR>
