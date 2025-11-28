@@ -16,6 +16,7 @@ ZSH_THEME="juanghurtado"
 # https://dzone.com/articles/advanced-git-log
 alias gs='git status'
 alias gl='git log --graph --oneline --decorate --all'
+alias gw='git worktree list'
 
 #alias
 alias mv='mv -i'
