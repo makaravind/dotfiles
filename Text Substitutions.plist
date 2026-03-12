@@ -4,9 +4,75 @@
 <array>
 	<dict>
 		<key>phrase</key>
+		<string>ametku@newrelic.com</string>
+		<key>shortcut</key>
+		<string>:email</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>FROM VideoAction, VideoAdAction, VideoErrorAction, VideoCustomAction SELECT * where viewId = '{VIEW ID}' since 1 week ago limit max</string>
+		<key>shortcut</key>
+		<string>:nrql</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Good morning!</string>
+		<key>shortcut</key>
+		<string>gm</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>I am currently in a meeting. Could you please let me know what this is regarding?</string>
+		<key>shortcut</key>
+		<string>inm</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>impersonation link</string>
+		<key>shortcut</key>
+		<string>ipl</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>New Relic</string>
+		<key>shortcut</key>
+		<string>nr</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>On my way!</string>
+		<key>shortcut</key>
+		<string>omw</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>quick favour - </string>
+		<key>shortcut</key>
+		<string>qf</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>quick call?</string>
+		<key>shortcut</key>
+		<string>qq</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>screenshot</string>
+		<key>shortcut</key>
+		<string>sc</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>Thank you!</string>
 		<key>shortcut</key>
 		<string>tq</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>quick zoom?</string>
+		<key>shortcut</key>
+		<string>zz</string>
 	</dict>
 </array>
 </plist>
