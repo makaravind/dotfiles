@@ -4,15 +4,9 @@
 <array>
 	<dict>
 		<key>phrase</key>
-		<string>ametku@newrelic.com</string>
+		<string>ametku@company.com</string>
 		<key>shortcut</key>
 		<string>:email</string>
-	</dict>
-	<dict>
-		<key>phrase</key>
-		<string>FROM VideoAction, VideoAdAction, VideoErrorAction, VideoCustomAction SELECT * where viewId = '{VIEW ID}' since 1 week ago limit max</string>
-		<key>shortcut</key>
-		<string>:nrql</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
