@@ -22,18 +22,6 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
-		<string>impersonation link</string>
-		<key>shortcut</key>
-		<string>ipl</string>
-	</dict>
-	<dict>
-		<key>phrase</key>
-		<string>New Relic</string>
-		<key>shortcut</key>
-		<string>nr</string>
-	</dict>
-	<dict>
-		<key>phrase</key>
 		<string>On my way!</string>
 		<key>shortcut</key>
 		<string>omw</string>
